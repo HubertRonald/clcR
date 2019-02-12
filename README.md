@@ -1,9 +1,11 @@
 # clcR
-[clc.R](https://github.com/HubertRonald/clcR/blob/master/clc.R) cleans console R studio
-
+[clc.R](https://github.com/HubertRonald/clcR/blob/master/clc.R) cleans console R studio with:<br/>
+```
+clc
+```
 
 ## Main Features
-* Can customize command for cleaning of the R terminal
+* Can customize command for cleaning of the R console<br/>
 **Replace 'clc' in this [file](https://github.com/HubertRonald/clcR/blob/master/clc.R) by:**
 
 'cls' command DOS<br/>
