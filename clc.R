@@ -38,7 +38,7 @@
 
 
 clc <- 0                                            ##  variable from class numeric
-class(clc) <- 'cleanup'                             ##  class limpiar
+class(clc) <- 'cleanup'                             ##  class cleanup
 print.cleanup <- function(cleanupObject) cat("\f")  ##  method print: \f: Form Feed
 
 print(clc)                                          ##  when you load this source,
@@ -52,7 +52,7 @@ print(clc)                                          ##  when you load this sourc
 
 ##  'cls' command DOS
 ##  'clear' terminal macOS / Linux / Unix
-##  or whatever you want
+##  or whatever you choose
 
 ##  Directly in this code or in console
 
