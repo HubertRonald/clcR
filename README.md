@@ -1,24 +1,24 @@
 # clcR
-cleanup R studio
+cleanup R studio get file [clc.R](https://github.com/HubertRonald/clcR/blob/master/clc.R)
 
 
 ## Main Features
-* You can customize the cleaning of the R terminal
-* Can replace 'clc' by:
+* Can customize command for cleaning of the R terminal
+* Replace 'clc' in this [file](https://github.com/HubertRonald/clcR/blob/master/clc.R) by:
 
-'cls' command DOS
-'clear' terminal macOS / Linux / Unix
-or whatever you want
+'cls' command DOS<br/>
+'clear' terminal macOS / Linux / Unix<br/>
+or whatever you want<br/>
 
-* Directly in this code or in console
+* Or in console
 
-source("clc.R")
-clear <- 0
-class(clear) <- 'cleanup'
+source("clc.R")<br/>
+clear <- 0<br/>
+class(clear) <- 'cleanup'<br/>
 
 * To use it directly:
-source("clc.R")
-clc # when you need it
+source("clc.R")<br/>
+clc # when you need it<br/>
 
 
 ## Built With
@@ -31,6 +31,11 @@ clc # when you need it
 * **Hubert Ronald** - *Initial work* - [HubertRonald](https://github.com/HubertRonald)
 
 See also the list of [contributors](https://github.com/HubertRonald/clcR/contributors) who participated in this project.
+
+
+## Inspiration
+
+Command clc comes from [Matlab](https://www.mathworks.com/products/matlab.html) and [Octave](https://www.gnu.org/software/octave/) this clears your workspace.
 
 
 ## License
