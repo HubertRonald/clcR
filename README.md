@@ -14,15 +14,15 @@ Or whatever you want<br/>
 
 **Or in console**
 ```
-source("clc.R")<br/>
-clear <- 0<br/>
-class(clear) <- 'cleanup'<br/>
+source("clc.R")
+clear <- 0
+class(clear) <- 'cleanup'
 ```
 
 **To use it directly:**
 ```
-source("clc.R")<br/>
-clc # when you need it<br/>
+source("clc.R")
+clc # when you need it
 ```
 
 
