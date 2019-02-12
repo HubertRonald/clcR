@@ -6,15 +6,19 @@ cleanup R studio
 * You can customize the cleaning of the R terminal
 * Can replace 'clc' by:
 
-* 'cls' command DOS
-* 'clear' terminal macOS / Linux / Unix
-* or whatever you want
+'cls' command DOS
+'clear' terminal macOS / Linux / Unix
+or whatever you want
 
 * Directly in this code or in console
 
-* source("clc.R")
-* clear <- 0
-* class(clear) <- 'cleanup'
+source("clc.R")
+clear <- 0
+class(clear) <- 'cleanup'
+
+* To use it directly:
+source("clc.R")
+clc # when you need it
 
 
 ## Built With
