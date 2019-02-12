@@ -7,10 +7,11 @@ clc
 ## Main Features
 * Can customize command for cleaning of the R console<br/>
 **Replace 'clc' in this [file](https://github.com/HubertRonald/clcR/blob/master/clc.R) by:**
-
-'cls' command DOS<br/>
-'clear' terminal macOS / Linux / Unix<br/>
-Or whatever you want<br/>
+```
+##  'cls' command DOS
+##  'clear' terminal macOS / Linux / Unix
+##  Or whatever you choose
+```
 
 **Or in console**
 ```
