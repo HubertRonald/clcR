@@ -1,24 +1,27 @@
 # clcR
-cleanup R studio get file [clc.R](https://github.com/HubertRonald/clcR/blob/master/clc.R)
+[clc.R](https://github.com/HubertRonald/clcR/blob/master/clc.R) cleans console R studio
 
 
 ## Main Features
 * Can customize command for cleaning of the R terminal
-* Replace 'clc' in this [file](https://github.com/HubertRonald/clcR/blob/master/clc.R) by:
+**Replace 'clc' in this [file](https://github.com/HubertRonald/clcR/blob/master/clc.R) by:**
 
 'cls' command DOS<br/>
 'clear' terminal macOS / Linux / Unix<br/>
-or whatever you want<br/>
+Or whatever you want<br/>
 
-* Or in console
-
+**Or in console**
+```
 source("clc.R")<br/>
 clear <- 0<br/>
 class(clear) <- 'cleanup'<br/>
+```
 
-* To use it directly:
+**To use it directly:**
+```
 source("clc.R")<br/>
 clc # when you need it<br/>
+```
 
 
 ## Built With
