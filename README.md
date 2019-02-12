@@ -41,7 +41,7 @@ See also the list of [contributors](https://github.com/HubertRonald/clcR/contrib
 
 ## Inspiration
 
-Command clc comes from [Matlab](https://www.mathworks.com/products/matlab.html) and [Octave](https://www.gnu.org/software/octave/) this clears your workspace.
+Command ```clc``` comes from [Matlab](https://www.mathworks.com/products/matlab.html) and [Octave](https://www.gnu.org/software/octave/) this clears your workspace.
 
 
 ## License
