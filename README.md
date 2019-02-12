@@ -1,0 +1,2 @@
+# clcR
+cleanup R studio
