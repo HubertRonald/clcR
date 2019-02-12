@@ -5,7 +5,8 @@ clc
 ```
 
 ## Main Features
-* Can customize command for cleaning of the R console<br/>
+* Can customize command for cleaning of the R console\
+
 **Replace 'clc' in this [file](https://github.com/HubertRonald/clcR/blob/master/clc.R) by:**
 ```
 ##  'cls' command DOS
