@@ -16,7 +16,7 @@ clc
 
 **Or in console or in terminal**
 ```
-source("clc.R")
+source("clc.R") or source("yourPath/clc.R")
 clear <- 0
 class(clear) <- 'cleanup'
 ```
