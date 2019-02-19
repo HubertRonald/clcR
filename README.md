@@ -1,11 +1,11 @@
 # clcR
-[clc.R](https://github.com/HubertRonald/clcR/blob/master/clc.R) cleans console R studio with:<br/>
+[clc.R](https://github.com/HubertRonald/clcR/blob/master/clc.R) cleans RStudio Terminal or RStudio Console or Terminal macOS with:<br/>
 ```
 clc
 ```
 
 ## Main Features
-* Can customize command for cleaning of the R console
+* Can customize command for cleaning of the RStudio Terminal or RStudio Console or Terminal macOS
 
 **Replace 'clc' in this [file](https://github.com/HubertRonald/clcR/blob/master/clc.R) by:**
 ```
@@ -14,7 +14,7 @@ clc
 ##  Or whatever you choose
 ```
 
-**Or in console**
+**Or in console or in terminal**
 ```
 source("clc.R")
 clear <- 0
@@ -23,7 +23,7 @@ class(clear) <- 'cleanup'
 
 **To use it directly:**
 ```
-source("clc.R")
+source("clc.R") or source("yourPath/clc.R")
 clc # when you need it
 ```
 
