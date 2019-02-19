@@ -23,7 +23,7 @@
 ##  https://stackoverflow.com/questions/14260340/function-to-clear-the-console-in-r-and-rstudio
 
 ##  Espaniol - Spanish
-##  https://es.stackoverflow.com/questions/237112/c%C3%B3mo-limpiar-la-consola-de-r-studio
+##  https://es.stackoverflow.com/questions/237112/c%C3%B3mo-limpiar-la-consola-de-rstudio-y-los-terminales-rstudio-y-macos
 ##  --------------------------------------------------------
 
 ##  The MIT License
