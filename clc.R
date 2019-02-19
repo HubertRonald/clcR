@@ -51,7 +51,6 @@
 ##  ------------------------------------------------------------
 ##  Detect RStudio Terminal or RStudio Console or Terminal macOS
 ##  --------------------------------------------------------------
-#intf <- 
 if (commandArgs()[1]=='RStudio'){
         ##  method print: \f: Form Feed
         print.cleanup <- function(cleanupObject) cat("\f")     
