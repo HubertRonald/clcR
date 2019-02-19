@@ -65,10 +65,8 @@ if (commandArgs()[1]=='RStudio'){
     ##  Rapp defaul configuration in macOS:
     ##  "/Library/Frameworks/R.framework/Resources/bin/exec/R"
     ##  --------------------------------------------------------------
-    ##  https://es.wikipedia.org/wiki/C%C3%B3digo_escape_ANSI
-    ##  http://ascii-table.com/ansi-escape-sequences.php            (check)
-    ##  https://invisible-island.net/ncurses/man/clear.1.html       (check)
-    ##  https://stackoverflow.com/questions/37774983/clearing-the-screen-by-printing-a-character
+    ##  http://ascii-table.com/ansi-escape-sequences.php                                                (check)
+    ##  https://invisible-island.net/ncurses/man/clear.1.html                                           (check)
     ##  https://stackoverflow.com/questions/1348563/clearing-output-of-a-terminal-program-linux-c-c     (check)
     print.cleanup <- function(cleanupObject) cat(c("\033[2J","\033[H"))
     
