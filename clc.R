@@ -56,7 +56,7 @@ if (commandArgs()[1]=='RStudio'){
         print.cleanup <- function(cleanupObject) cat("\f")     
         
 
-}else if(substr(commandArgs()[1], commandArgs()[1], commandArgs()[1]) == "R"){        
+}else if(substr(commandArgs()[1], nchar(commandArgs()[1]), nchar(commandArgs()[1])) == "R"){        
     
     ##  -------------------------------------------------------------
     ##  }else if(tail(strsplit(commandArgs()[1], split = "")[[1]], n=length(commandArgs()[1])))       
